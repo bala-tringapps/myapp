@@ -7,8 +7,8 @@ function Navigation() {
       <nav>
         <div className='topnav'>
           <ul>
-            <Link>
-              <li className='active' href='#home'>
+            <Link to="/">
+              <li className='active'>
                 Home
               </li>
             </Link>

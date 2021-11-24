@@ -21,3 +21,6 @@
   background-color: #04aa6d;
   color: white;
 }
+li {
+  list-style-type: none;
+}

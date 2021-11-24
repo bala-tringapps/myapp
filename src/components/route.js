@@ -11,8 +11,8 @@ function Path() {
         <Navigation />
         <Routes>
           <Route path='/about' element={<About/>} />
+          <Route path='/booklist' element={<Booksearch/>} />
           <Route path='/transaction' element={<Transaction/>} />
-          <Route path='/booksearch' element={<Booksearch/>} />
         </Routes>
       </div>
     </Router>
