@@ -38,7 +38,6 @@ function Navigation() {
             </Link>
           </ul>
         </div>
-        
       </nav>
       <div className='kural'>Welcome to BJPs Library</div>
     </div>
