@@ -10,9 +10,9 @@ function Path() {
       <div>
         <Navigation />
         <Routes>
-          <Route path='/about' element={<About/>} />
-          <Route path='/transaction' element={<Transaction/>} />
-          <Route path='/booksearch' element={<Booksearch/>} />
+          <Route path='/about' element={<About />} />
+          <Route path='/booklist' element={<Booksearch />} />
+          <Route path='/transaction' element={<Transaction />} />
         </Routes>
       </div>
     </Router>
