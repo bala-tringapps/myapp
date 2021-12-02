@@ -1,23 +1,7 @@
-import React, { useState, useEffect } from 'react'
 import './css/nav.css'
-import axios from 'axios'
 import { Link } from 'react-router-dom'
-
+import Home from './home'
 function Navigation() {
-  useEffect(() => {
-    const thirukural_url = 'https://api-thirukkural.vercel.app/api?num=2'
-
-    axios.get(thirukural_url).then((res) => {
-      const kuralExp = res.data
-      const kuralLine1 = kuralExp.line1
-      const kuralLine2 = kuralExp.line2
-      const engTrans = kuralExp.eng
-      console.log(kuralExp)
-      console.log(kuralLine1)
-      console.log(kuralLine2)
-      console.log(engTrans)
-    })
-  })
 
   return (
     <div>
@@ -39,7 +23,6 @@ function Navigation() {
           </ul>
         </div>
       </nav>
-      <div className='kural'>Welcome to BJPs Library</div>
     </div>
   )
 }
